@@ -13,7 +13,6 @@ const server = htttp.createServer((req,res)=>{
         res.end("404 page not found on server")
     }
 })
-
 server.listen(5000,()=>{
     console.log("server lisdting on port number 5000");
 })
